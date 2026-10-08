@@ -1,5 +1,6 @@
 # openai-elevenlabs-automation
 Automated AI pipeline using Next.js to generate scripts via OpenAI and convert them to speech via ElevenLabs API
+```typescript
 import { generateObject } from 'ai';
 import { openai } from '@ai-sdk/openai';
 import { z } from 'zod';
